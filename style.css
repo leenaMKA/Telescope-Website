@@ -60,7 +60,8 @@ p{
 }
 
 .banner:before,
-sec2:before{
+.sec2:before,
+.contact:before{
   content: "";
   position: absolute;
   top: 0;
@@ -72,7 +73,8 @@ sec2:before{
 }
 
 .banner:after,
-.sec2:after{
+.sec2:after,
+.contact:after{
   content: "";
   position: absolute;
   bottom: 0;
@@ -203,4 +205,54 @@ sec2:before{
   position: relative;
   padding: 100px 0;
   background:#000;
+}
+.blogpost{
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+  background: #000;
+}
+
+.blogpost .imgBx{
+  height: 400px;
+}
+.blogpost .imgBx img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blogpost .content{
+  padding: 15px;
+}
+.blogpost .content h1{
+  color: #fff;
+  margin: 0;
+  padding: 0 0 10px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.btnD2,
+.btnD2:hover{
+  background: #262626;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 20px;
+  float: right;
+}
+.contact{
+  position: relative;
+  padding: 100px 0;
+  background: url(images/milky-way-banner.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+.contact .form-control{
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255,255,255,.2);
+  height: 50px;
+  border-radius: 0;
+  background: rgba(0,0,0,.6);
+  color: #fff;
+  font-size: 1.25rem;
 }
