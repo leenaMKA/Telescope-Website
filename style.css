@@ -198,3 +198,9 @@ sec2:before{
   font-weight: 500;
   margin-top: 20px;
 }
+
+.blog{
+  position: relative;
+  padding: 100px 0;
+  background:#000;
+}
