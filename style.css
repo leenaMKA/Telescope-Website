@@ -31,6 +31,10 @@ p{
   color: #000;
   background: #fff;
 }
+
+.navbar-light .navbar-nav .active>.nav-link:hover{
+  color: #000;
+}
 .navbar-light .navbar-nav .nav-link {
   color: rgba(255,255,255,.8);
 }
@@ -275,4 +279,42 @@ p{
 .contact label{
   color: #fff;
   font-size: 1.25rem;
+}
+
+footer{
+  background: #000;
+  padding: 50px 0 0;
+}
+
+.sci{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sci li{
+  list-style: none;
+  margin: 0 20px;
+}
+
+.sci li a{
+  color: #777;
+  font-size: 2em;
+  transition: 0.5s;
+}
+
+.sci li a:hover{
+  color: #fff;
+}
+.cpryt {
+  text-align: center;
+  color: #777;
+  margin-top: 20px;
+}
+
+.cpryt a,
+.cpryt a:hover{
+  text-decoration: none;
+  color: #fff;
 }
