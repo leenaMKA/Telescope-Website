@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
 
 *{
   outline: none !important;
@@ -167,8 +167,8 @@ p{
   position: relative;
   margin: 0;
   padding: 10px;
-  background: rgba(0, 0, 0, 95);
-  color: #fff;
+  background: #f8f9fa;
+  color: #212529;
   font-size: 20px;
   font-weight: 600;
   width: 100%;
@@ -315,6 +315,7 @@ footer{
   text-align: center;
   color: #777;
   margin-top: 20px;
+  font-size: 1rem;
 }
 
 .cpryt a,
