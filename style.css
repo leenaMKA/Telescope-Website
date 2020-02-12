@@ -15,7 +15,7 @@ header{
 }
 
 p{
-  font-size: 1,15rem;
+  font-size: 1.50rem;
 }
 
 .navbar{
@@ -109,14 +109,13 @@ p{
 .contentBox h1{
   font-weight: 800;
   color: #fff;
-  text-shadow: 1px 1px 8px #000;
   text-transform: uppercase;
   font-size: 5rem;
 }
 .contentBox p{
   color: #fff;
-  text-shadow: 1px 1px 8px #000;
   font-size: 1,3rem;
+  text-shadow: 3px 3px #000;
 }
 
 .sec1{
